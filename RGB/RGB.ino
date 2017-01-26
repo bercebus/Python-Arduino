@@ -42,7 +42,7 @@ void loop()
   delay(100);
 }
 
-void colorLed(byte r, int g, int b)
+void colorLed(int r, int g, int b)
 {
   analogWrite(LED_R, r);
   analogWrite(LED_G, g);
